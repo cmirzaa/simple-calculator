@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Simple Calculator</title>
+		<script type="text/javascript" src="common.js" async></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	<div class="main-container">
+		<div class="calc-wrapper container">
+			<form name="calculator">
+				<header>
+					<input type="text" class="form-control" id="calcResults" placeholder="0" value="0">
+				</header>
+
+				<div class="calc-wrapper-content row">
+					<div class="col-sm-12">
+						<a class="btn btn-primary btn-value" data-val="1" role="button">1</a>
+						<a class="btn btn-primary btn-value" data-val="2" role="button">2</a>
+						<a class="btn btn-primary btn-value" data-val="3" role="button">3</a>
+						<a class="btn btn-primary btn-reset" id="reset" data-val="" role="button">AC</a>
+					</div>
+					<div class="col-sm-12">
+						<a class="btn btn-primary btn-value" data-val="4" role="button">4</a>
+						<a class="btn btn-primary btn-value" data-val="5" role="button">5</a>
+						<a class="btn btn-primary btn-value" data-val="6" role="button">6</a>
+						<a class="btn btn-primary btn-value" data-val="+" role="button">+</a>
+					</div>
+					<div class="col-sm-12">
+						<a class="btn btn-primary btn-value" data-val="7" role="button">7</a>
+						<a class="btn btn-primary btn-value" data-val="8" role="button">8</a>
+						<a class="btn btn-primary btn-value" data-val="9" role="button">9</a>
+						<a class="btn btn-primary btn-value" data-val="-" role="button">-</a>
+					</div>
+					<div class="col-sm-12">
+						<a class="btn btn-primary btn-value" data-val="0" role="button">0</a>
+						<a class="btn btn-primary btn-value" data-val="*" role="button">*</a>
+						<a class="btn btn-primary btn-value" data-val="." role="button">.</a>
+						<a class="btn btn-primary btn-value" data-val="/" role="button">/</a>
+					</div>
+
+
+					<div class="col-sm-12 last">
+						<!-- <a class="btn btn-primary btn-value" data-val="%" role="button">%</a> -->
+						<a class="btn btn-primary btn-value" data-val="=" role="button">=</a>
+						<!-- <a class="btn btn-primary btn-value" data-val="+/-" role="button">+/-</a> -->
+					</div>
+
+				</div>
+			</form>
+		</div>
+	</div>
+	</body>
+</html>
